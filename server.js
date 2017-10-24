@@ -42,15 +42,15 @@ var characters = [
 
 // Basic route that sends the user first to the AJAX Page
 app.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname, "home.html"));
+  res.sendFile(path.join(__dirname, "/public/home.html"));
 });
 
 app.get("/make", function(req, res) {
-  res.sendFile(path.join(__dirname, "make.html"));
+  res.sendFile(path.join(__dirname, "/public/make.html"));
 });
 
 app.get("/view", function(req, res) {
-  res.sendFile(path.join(__dirname, "view.html"));
+  res.sendFile(path.join(__dirname, "/public/view.html"));
 });
 
 // Search for Specific Character (or all characters) - provides JSON
