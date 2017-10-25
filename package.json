@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
-    "parse-body": "^1.0.3"
+    "parse-body": "^1.0.3",
+    "path": "^0.12.7"
   }
 }
